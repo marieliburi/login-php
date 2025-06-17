@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Simples</title>
+    <title>Login simples</title>
 </head>
 <body>
     <h2>Login</h2>
@@ -33,5 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" name="password"><br><br>
         <input type="submit" value="Entrar">
     </form>
+    
 </body>
 </html>
