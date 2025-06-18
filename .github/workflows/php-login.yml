@@ -7,4 +7,4 @@ on:
 
 jobs:
   login:
-    uses: marieliburi/php-workflows/.github/workflows/login.yml@master
+    uses: marieliburi/php-workflows/.github/workflows/login.yml@main
