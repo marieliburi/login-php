@@ -22,15 +22,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login simples</title>
+    <title>Login Simples</title>
 </head>
 <body>
     <h2>Login</h2>
     <form method="post" action="">
-        <label>Usuário:</label><br>
-        <input type="text" name="username"><br>
-        <label>Senha:</label><br>
-        <input type="password" name="password"><br><br>
+        <label>Usuário: </label> <br>
+        <input type="text" name="username"> <br>
+        <label>Senha: </label> <br>
+        <input type="password" name="password"> <br> <br>
         <input type="submit" value="Entrar">
     </form>
     
