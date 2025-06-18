@@ -2,8 +2,9 @@ name: CI via Workflow Reutilizável
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]        
   pull_request:
+    branches: [ main ]
 
 jobs:
   login:
