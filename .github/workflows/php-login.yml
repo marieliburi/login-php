@@ -2,9 +2,10 @@ name: CI via Workflow Reutilizável
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master ]        
   pull_request:
+    branches: [ master ]
 
 jobs:
   login:
-    uses: marieliburi/php-workflows/.github/workflows/login.yml@main
+    uses: marieliburi/php-workflows/.github/workflows/login.yml@master
